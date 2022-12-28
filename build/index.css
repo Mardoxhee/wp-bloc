@@ -1,0 +1,44 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss (1) ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+img {
+  border-radius: 50% !important;
+  height: 200px;
+  width: 200px;
+}
+
+.wp-block-kanyeba-bloc-test-kanyeba-bloc-test h1 {
+  font-size: 1.5rem;
+  color: #548B9F;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.wp-block-kanyeba-bloc-test-kanyeba-bloc-test a {
+  padding: 10px 20px;
+  border-radius: 40px;
+  background-color: #F4C3B8;
+  text-decoration: none;
+}
+.wp-block-kanyeba-bloc-test-kanyeba-bloc-test .ka-button {
+  color: #548B9F;
+}
+.wp-block-kanyeba-bloc-test-kanyeba-bloc-test.is-style-default {
+  border: 0;
+  background-color: #FFE2C7;
+}
+.wp-block-kanyeba-bloc-test-kanyeba-bloc-test.is-style-border {
+  border: 2px solid #000;
+  border-radius: 16px;
+  background-color: #F6F6F6;
+}
+
+/*# sourceMappingURL=index.css.map*/

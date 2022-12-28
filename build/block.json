@@ -1,0 +1,67 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "kanyeba-bloc-test/kanyeba-bloc-test",
+  "version": "0.1.0",
+  "title": "Bloc kanyeba",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Test de bloc voila",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "kanyeba-bloc-test",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "keywords": [
+    "kanyeba",
+    "custom boclk",
+    "test"
+  ],
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "contentTitle": {
+      "type": "string",
+      "source": "html",
+      "selector": "h1"
+    }
+  },
+  "align": {
+    "type": "string",
+    "default": "none"
+  },
+  "backgroundColor": {
+    "type": "string"
+  },
+  "textColor": {
+    "type": "string"
+  },
+  "kaLink": {
+    "type": "string",
+    "default": ""
+  },
+  "linkLabel": {
+    "type": "string",
+    "default": "Check it out!"
+  },
+  "hasLinkNofollow": {
+    "type": "boolean",
+    "default": false
+  },
+  "styles": [
+    {
+      "name": "default",
+      "label": "Default",
+      "isDefault": true
+    },
+    {
+      "name": "border",
+      "label": "Border"
+    }
+  ]
+}
